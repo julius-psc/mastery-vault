@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "type": "file",
+      "ctime": 1779294815512,
+      "path": "00_system/dashboards/current-learning.md",
+      "title": "Learning"
+    },
+    {
+      "type": "file",
+      "ctime": 1779294831583,
+      "path": "00_system/dashboards/mastered.md",
+      "title": "Mastered"
+    },
+    {
+      "type": "file",
+      "ctime": 1779294836447,
+      "path": "00_system/dashboards/recent-work.md",
+      "title": "Recent"
+    }
+  ]
+}
