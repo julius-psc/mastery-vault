@@ -1,0 +1,67 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "00_system/templates",
+  "templates_pairs": [
+    [
+      "",
+      ""
+    ]
+  ],
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": false,
+  "enable_system_commands": false,
+  "shell_path": "",
+  "user_scripts_folder": "",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "01_daily",
+      "template": "00_system/templates/daily-template.md"
+    },
+    {
+      "folder": "02_weekly",
+      "template": "00_system/templates/weekly-template.md"
+    },
+    {
+      "folder": "03_engineering",
+      "template": "00_system/templates/concept-engineering-template.md"
+    },
+    {
+      "folder": "04_design",
+      "template": "00_system/templates/concept-design-template.md"
+    },
+    {
+      "folder": "05_illustrations",
+      "template": "00_system/templates/illustration-study-template.md"
+    },
+    {
+      "folder": "06_motion/recreations",
+      "template": "00_system/templates/motion-recreation-template.md"
+    },
+    {
+      "folder": "04_design/library",
+      "template": "00_system/templates/dissection-template.md"
+    }
+  ],
+  "enable_file_templates": false,
+  "file_templates": [
+    {
+      "regex": ".*",
+      "template": ""
+    }
+  ],
+  "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
+  "enabled_templates_hotkeys": [
+    ""
+  ],
+  "startup_templates": [
+    ""
+  ],
+  "intellisense_render": 1,
+  "ignore_folders_on_creation": [
+    {
+      "folder": ""
+    }
+  ]
+}
