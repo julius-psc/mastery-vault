@@ -1,5 +1,6 @@
 {
   "showLineNumber": true,
   "spellcheck": false,
-  "attachmentFolderPath": "./_attachments"
+  "attachmentFolderPath": "./_attachments",
+  "promptDelete": false
 }
