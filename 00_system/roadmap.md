@@ -27,7 +27,22 @@ When all three pass, mark `status: mastered` in the concept note frontmatter. Re
 #### Stage 0: JavaScript Fundamentals (weeks 1-6)
 
 ##### 0.1 Language basics
-
+- `var`, `let`, `const` — scoping rules, reassignment vs mutation, why `const` is the default
+- Primitive types vs reference types
+- Memory model: stack vs heap implications
+- Type coercion
+- The complete falsy list
+- Truthy edge cases
+- Template literals
+- Tagged template literals
+- Destructuring: object, array, nested, with defaults, with rename, in function parameters
+- Spread operator in arrays, objects, function calls
+- Rest operator in destructuring and function parameters
+- Optional chaining including with function calls and array access
+- Nullish coalescing
+- Logical assignment operators
+- Short-circuit evaluation patterns
+- Ternary expressions and when they hurt readability
 
 ##### 0.2 Functions
 
