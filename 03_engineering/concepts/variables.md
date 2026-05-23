@@ -77,16 +77,6 @@ I learnt about the different scopes. Scope is the environment / location in whic
 
 Reassignement corresponds to changing the variable to a new one whereas mutation is changing the actual content of the object or the array. 
 
-```js
-
-```
-
-## Variations practiced
-
-1. 
-2. 
-3. 
-
 ## Where I got confused
 
 
