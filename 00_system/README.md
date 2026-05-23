@@ -66,26 +66,61 @@ Code handling is split into two complementary environments to prevent vault bloa
 
 ## Part 5: The Operational Cycle
 
-Stick to this operational framework without variation to establish deep mechanical routine:
+### 1. Morning — open today's daily log
 
-### Morning (2 Min)
-* Open today's daily note (generated instantly via template).
-* Glance at yesterday's "Tomorrow" checklist targets.
-* Survey the current-learning dashboard to ground your focus.
+Open Obsidian. Press `Cmd+P` → type "Daily note" → enter. (Or click the calendar icon if you have Periodic Notes set up properly.)
 
-### During Practice
-* Create concept notes as you encounter new mechanics. Fill them progressively in your own words.
-* Drop screenshots used for reference into your design library entries or studies.
-* Store heavy working code bases inside your parallel repository, linking the project folder path back to your notes.
+This auto-creates: `01_daily/2026-05-23.md` with your daily template pre-filled.
 
-### End of Session (90 Sec)
-* Complete high-level bullets on active skill tracks in your daily log.
-* Log exactly one definitive breakthrough under the realization field. This is the most valuable field for long-term review.
+Glance at yesterday's "Tomorrow" field. That's where you start.
 
-### End of Week, Sunday (30 Min)
-* Generate structural weekly review ledger from your template.
-* Clear and route all lingering temporary notes or links out of 08_inbox/ into their permanent folders.
-* Schedule prospective spaced re-test dates for concepts you want to maintain.
+### 2. During a learning session — create concept notes as you encounter them
+
+When you start learning a new concept (e.g. closures), create the concept note:
+
+- **Engineering concept** → new file in `03_engineering/concepts/closures.md` (Templater auto-applies the engineering concept template)
+- **Design concept** → new file in `04_design/concepts/easing-curves.md`
+- **Motion recreation** → new file in `06_motion/recreations/2026-05-23-linear-hover-state.md`
+- **Illustration study** → new file in `05_illustration/studies/2026-05-23-blender-donut.md`
+- **Design dissection (daily exposure)** → new file in `04_design/library/2026-05-23-linear-command-palette.md`
+
+You fill these progressively as you learn. They're your personal textbook.
+
+### 3. During the session — drop screenshots inline
+
+When you need to capture a screenshot, just paste it directly into the note you're working in (`Cmd+V`). Obsidian auto-saves it to `_attachments/` next to that note.
+
+For code: paste it directly in the concept note inside fenced code blocks with the language tagged (` ```ts `, ` ```rust `, etc.). For substantial code (anything more than ~30 lines), put it in your parallel `mastery-code` repo and link to the file path from the concept note.
+
+### 4. Anything you don't have time to file properly → inbox
+
+If something interesting crosses your desk mid-session — a link, a half-thought, a screenshot you'll process later — drop it in `08_inbox/`. Don't decide where it goes in the moment. Triage on Sunday.
+
+### 5. End of session (90 seconds) — fill the daily log
+
+Open today's `01_daily/2026-05-23.md`. Fill the template:
+
+- **Engineering**: focus + 1 bullet on what you built/practiced + 1 bullet on what you got stuck on
+- **Design**: focus + link to today's library dissection + what you practiced
+- **Illustration**: focus + what you practiced
+- **Realization**: the one thing that clicked today (most important field)
+- **Tomorrow**: 1 bullet for what you'll start with tomorrow
+
+Save. Done. 90 seconds.
+
+Git plugin auto-commits within 30 min. Nothing for you to do.
+
+---
+
+### Sunday only — weekly review (30 min)
+
+`Cmd+P` → "Weekly note" → fills `02_weekly/2026-W21.md` from template.
+
+- List concepts that hit `status: mastered` this week (update frontmatter on those concept notes)
+- List concepts still shaky → schedule next week's re-tests
+- Be honest about where you wasted time
+- Triage your `08_inbox/` — move each item to the right folder
+- Re-do 2-3 exercises from earlier weeks without notes (spaced repetition)
 
 ### End of Month (1 Hr)
 * Create a monthly summary in 02_weekly/ named YYYY-MM-monthly.md.
