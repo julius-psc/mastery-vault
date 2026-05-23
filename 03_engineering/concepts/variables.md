@@ -34,12 +34,9 @@ car = 'Yellow'
 const dog = True
 // dog = False is NOT allowed
 ```
-## Why it exists / what problem it solves
-
-Variables are used to store and use data within a JS application. 
 
 
-## Mental model
+Scope in JS is the context / environnement in which variables are relevant and can be used. For example, variables that are declared inside of a function cannot be used / aren't visible from outside of the function. In JS, there are 2 types of scopes which are Global (variables accessible in the full file / environnement) and Local (variables ONLY accessible inside of a specific function (called Lexical scope) or modules (called Modular scope)). 
 
 
 
