@@ -1,6 +1,8 @@
 # Designing
 
-**Daily block:** 1.5 hours, every day, afternoon **Sub-tracks:** Figma mastery | UX systems thinking | Motion | Rive | Portfolio **Rule:** Design dissection happens every single day (20 min of your 1.5 hrs). Everything else rotates within the remaining time by phase.
+**Daily block:** 1.5 hours, every day, afternoon 
+**Sub-tracks:** Figma mastery | UX systems thinking | Motion | Rive | Portfolio 
+**Rule:** Design dissection happens every single day (20 min of your 1.5 hrs). Everything else rotates within the remaining time by phase.
 
 ---
 

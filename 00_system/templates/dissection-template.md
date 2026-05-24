@@ -11,12 +11,12 @@ tags:
 # <% tp.file.title %>
 
 **Product:** 
-**What:** (specific screen, interaction, or detail)
+**What:** 
 **Captured:** <% tp.date.now("YYYY-MM-DD") %>
 
 ## Screenshot
 
-![[ ]]
+![[]]
 
 ## What's the design decision
 
@@ -40,4 +40,4 @@ tags:
 
 ## Connects to
 
-- [[ ]]
+- [[]]

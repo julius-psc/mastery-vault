@@ -22,7 +22,7 @@
 - `var`, `let`, `const` — scoping rules, reassignment vs mutation, why `const` is the default
 - Primitive types vs reference types
 - Memory model: stack vs heap implications
-- Type coercion: `==` vs `===`
+- Type coercion: == or ===
 - The complete falsy list: `false`, `0`, `-0`, `0n`, `""`, `null`, `undefined`, `NaN`
 - Truthy edge cases: `"0"`, `"false"`, `[]`, `{}`
 - Template literals
