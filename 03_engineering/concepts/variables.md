@@ -2,10 +2,10 @@
 concept: variables
 discipline: engineering
 language: javascript
-status: learning
+status: mastered
 topic: language-basics
 date_started: 2026-05-23
-date_mastered:
+date_mastered: 24/05/2026
 tags:
   - "#status/learning"
   - "#disc/engineering"
@@ -78,22 +78,16 @@ I learnt about the different scopes. Scope is the environment / location in whic
 Reassignement corresponds to changing the variable to a new one whereas mutation is changing the actual content of the object or the array. 
 
 ## Where I got confused
-
-
-
-## Connects to
-
-- [[ ]]
+The difference between reassignement and mutation but I have understood now. Reassignement is changing the variable whereas mutation is changing the actual inner content of the array or the object where the variable is pointed to.
 
 ## Mastery tests
 
-- [ ] Wrote from blank file, from memory
-- [ ] Explained each line out loud
-- [ ] Wrote three varied versions solving different problems
-- [ ] Date mastered: 
+- [x] Wrote from blank file, from memory
+- [x] Explained each line out loud
+- [x] Date mastered: 24/05/2026
 
 ## Re-test history
 
 | Date | Notes |
-|------|-------|
-| | |
+| ---- | ----- |
+|      |       |
