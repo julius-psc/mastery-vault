@@ -33,7 +33,6 @@ related:
 
 ## Visual reference
 
-![[ ]]
 
 ## Counter-examples (when this is done badly)
 
