@@ -1,4 +1,3 @@
-
 # Engineering
 
 **Daily block:** 2 hours, every day, morning 

@@ -2,10 +2,10 @@
 concept: type-coercion
 discipline: engineering
 language: javascript
-status: learning
+status: mastered
 topic: language-basics
 date_started: 2026-05-25
-date_mastered:
+date_mastered: 25/05/2026
 tags:
   - "#status/learning"
   - "#disc/engineering"
@@ -44,24 +44,32 @@ console.log(5 === "5") // Output : false (CORRECT)
 
 I should use explicit manual conversion to avoid chances of any errors in my code. Example : `console.log(Number("123"))`
 
-I should always check for null, undefined or empty strings: 
+I should always check for null, undefined or empty strings so that only non-null and defined values are allowed.
 ```js
-if (value !== null & value !== )
+if (value !== null & value !== undefined) {
+	console.log("The value exists")
+}
 ```
 
+To correctly convert numerical values part of a string, I should use `parseInt` and `parseFloat`. 
+```js
+console.log(parseInt("3jdqwlkdjqkwl")) // Output : 3
+```
+
+I should use the the `isNan()` method to check if a number is a NaN instead of comparing it. 
+```js
+if (isNaN(value)) {
+	console.log("Not a number")
+}
+```
 ## My re-implementation from memory
-
-
-
-## Where I got confused
-
-
+Type coercion happens when JS automatically converts a data type into another. There are 3 different type coercions : String, Number and Boolean. Errors can happen due to automatic type coercion and so I should apply the following steps : I should use the strict equality operator (= = =) instead of (= =). I should use explicit manual conversion when I want to change a data type into another to avoid bugs further down the road. To fetch the number in a string, I should use parseInt or parseFloat and to check that a number is a NaN, I should use the isNaN() method.
 
 ## Mastery tests
 
-- [ ] Wrote from blank file, from memory
-- [ ] Explained each line out loud
-- [ ] Date mastered: 
+- [x] Wrote from blank file, from memory
+- [x] Explained each line out loud
+- [x] Date mastered: 
 
 ## Re-test history
 
