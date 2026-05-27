@@ -39,7 +39,7 @@ Research each concept. Write a concept note. Find 3 examples in the wild.
 - **Framing and edges** — how objects are cropped at the artboard boundary
 - **Depth** — overlapping, size scaling, atmospheric perspective, value shift
 
-**Study exercise:** Take 10 Linear FIG illustrations. For each, sketch the compositional skeleton (just lines showing where focal points and leading lines are). Document in your illustration studies folder.
+- [ ] **Study exercise:** Take 10 Linear FIG illustrations. For each, sketch the compositional skeleton (just lines showing where focal points and leading lines are). Document in your illustration studies folder.
 
 ---
 
