@@ -37,7 +37,7 @@ console.log(firstRank) // Bronze
 console.log(thirdRank) // Gold
 ```
 
-- Destructuring with default values: if a property or element doesn't exist, you can assign a fallback default value via the assignement operator =. However, default values are ONLY triggered if the property is missing or `undefined` (NOT `null`, `0` or `false` which will bypass the default value).
+- Destructuring with Default Values: if a property or element doesn't exist, you can assign a fallback default value via the assignement operator =. However, default values are ONLY triggered if the property is missing or `undefined` (NOT `null`, `0` or `false` which will bypass the default value).
 
 ```js
 // Objects w/ defaults
@@ -50,10 +50,60 @@ const [player1, player2 = 0] = numbers // player2 defaults to 0
 
 ```
 
-- Destu
+- Destructuring with Renaming (Alisasing) : this can be used when destructuring an object, the target variable can be renamed using a colon : which is useful for preventing variable clashes in the scope.
+```js
+const dbResp = {player_id = 2}
 
-## Where I got confused
+const {player_id: playerId} = dbResp
 
+console.log(playerId) // 2
+// console.log(player_id) would NOT work
+```
+
+- Combining Renaming + Default values : Placing the renaming colon first and then the default assignement.
+```js
+const info = {name: "Bob"}
+const {name: userName, likes: likeCount = 0} = info
+
+console.log(userName) // Bob
+console.log(likes) // 0
+```
+
+- Nested Destructuring : Pluck data by destructuring nested objects in complex API
+```js
+const student = {
+	first_name: "Julius",
+	address {
+		city: "Caen",
+		postcode: 14000
+	}
+}
+
+const { first_name, address: {city} } = student // address is NOT a variable
+console.log(first_name) // Julius
+console.log(city) // Caen
+```
+
+- Destructuring in function parameters : Instead of passing an entire object or array and then having to type `object.property` repeatedly inside the function, you can destructure parameters directly inside in the `()` of the function.
+```js
+const article = {reference_no = 3, price = 50}
+
+// Use of default value
+function calcTot({price, tva = 0.4}) {
+	return price + (price * tva)
+}
+
+calcTot(article) // returns 70
+```
+
+- The Optional Object Fallback trick : If I call a function that destructures an object with no arguments, I will get a TypeError `Cannot destructure property of 'undefined'` which can be fixed by assigning an empty object default to the parameter block. 
+```js
+function displayPlayer({username="John Doe", rank="Noob"} = {}) {
+	console.log(`${username} is a ${rank}`)
+}
+
+displayPlayer() // This should return John Doe is a Noob
+```
 
 
 ## Mastery tests
