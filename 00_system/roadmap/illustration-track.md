@@ -1,6 +1,6 @@
 # Illustration
 
-**Daily block:** Alternates with Motion — illustration on odd days, motion on even days **Typical session:** 1-1.5 hours **Tools:** Figma (vector) | Blender (3D) | Photoshop or Affinity Photo (raster/grain) | VS Code with GLSL extension (shaders) **Target aesthetic:** Linear FIG illustrations | Raycast grainy gradients | Vercel Three.js compositions
+**Daily block:** Alternates with Motion — illustration on odd days, design on even days **Typical session:** 1-1.5 hours **Tools:** Figma (vector) | Blender (3D) | Photoshop or Affinity Photo (raster/grain) | VS Code with GLSL extension (shaders) **Target aesthetic:** Linear FIG illustrations | Raycast grainy gradients | Vercel Three.js compositions
 
 ---
 

@@ -2,5 +2,6 @@
   "showLineNumber": true,
   "spellcheck": false,
   "attachmentFolderPath": "./_attachments",
-  "promptDelete": false
+  "promptDelete": false,
+  "alwaysUpdateLinks": true
 }

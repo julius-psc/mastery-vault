@@ -5,7 +5,7 @@ language: javascript
 status: learning
 topic: language-basics
 date_started: 2026-06-14
-date_mastered:
+date_mastered: 14/06/2026
 tags:
   - "#status/learning"
   - "#disc/engineering"
@@ -106,11 +106,38 @@ displayPlayer() // This should return John Doe is a Noob
 ```
 
 
+- The Spread Operator: Expands an array or object into individual elements.
+- The Rest Operator (used in destructuring): Collects multiple remaining elements back into one variable.
+
+- Object destructuring with the rest operator : When destructuring, the rest gathers all unextracted properties into a new object. 
+```js
+const player = {rank: 100, username:"Joey", email: "jo@gmail.com", status: "godly"}
+
+const {rank, ...publicPlayer} = player
+
+console.log(rank) // 100
+console.log(publicPlayer) // {username:"Joey", email: "jo@gmail.com", status: "godly"}
+```
+
+- Array destructuring with the rest operator : Collects all remaining elements into a new array.
+```js
+const colours = ["Blue", "Red", "Green", "Orange", "Brown"]
+
+const [first, second, ...otherColours] = colours
+
+console.log(first) // Blue
+console.log(otherColours) // ["Green", "Orange", "Brown"]
+```
+
+- Two strict rules for the Rest operator : 
+1. It must be the LAST element
+2. Only one Rest operator can be used for a single destructuring assignment
+
 ## Mastery tests
 
-- [ ] Wrote from blank file, from memory
-- [ ] Explained each line out loud
-- [ ] Date mastered: 
+- [x] Wrote from blank file, from memory
+- [x] Explained each line out loud
+- [x] Date mastered: 
 
 ## Re-test history
 

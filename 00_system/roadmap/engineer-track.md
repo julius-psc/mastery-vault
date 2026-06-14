@@ -1,6 +1,5 @@
 # Engineering
 
-**Daily block:** 2 hours, every day, morning 
 **Stack:** JavaScript → TypeScript → DOM → React → Rust → Swift 
 **Rule:** Research every concept yourself. No AI-generated code during learning. Mastery bar on every concept before moving on.
 

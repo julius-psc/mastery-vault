@@ -62,7 +62,7 @@ I didn't quite understand what a tagged template function is but now I have comp
 
 - [x] Wrote from blank file, from memory
 - [x] Explained each line out loud
-- [ ] Date mastered: 
+- [x] Date mastered: 
 
 ## Re-test history
 
