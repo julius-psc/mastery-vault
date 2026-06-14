@@ -23,7 +23,7 @@
 - Memory model: stack vs heap implications
 - Type coercion: == or ===
 - The complete falsy list: `false`, `0`, `-0`, `0n`, `""`, `null`, `undefined`, `NaN`
-- Truthy edge cases: `"0"`, `"false"`, `[]`, `{}`
+-  (✓) Truthy edge cases: `"0"`, `"false"`, `[]`, `{}` 
 - Template literals
 - Tagged template literals
 - Destructuring: object, array, nested, with defaults, with rename, in function parameters

@@ -5,7 +5,7 @@ language: javascript
 status: learning
 topic: language-basics
 date_started: 2026-06-14
-date_mastered:
+date_mastered: 14/06/2026
 tags:
   - "#status/learning"
   - "#disc/engineering"
@@ -55,13 +55,13 @@ console.log(message)
 ```
 
 ## Where I got confused
-I didn't quite understand what a tagged template function is but now I have completely understood. It's a function in which a template literal is passed to with 
+I didn't quite understand what a tagged template function is but now I have completely understood. It's a function in which a template literal is passed to where it is filtered before being returned into a regular string.
 
 
 ## Mastery tests
 
-- [ ] Wrote from blank file, from memory
-- [ ] Explained each line out loud
+- [x] Wrote from blank file, from memory
+- [x] Explained each line out loud
 - [ ] Date mastered: 
 
 ## Re-test history
